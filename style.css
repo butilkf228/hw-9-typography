@@ -1,0 +1,136 @@
+:root {
+    --back-ground-color: #F6623E;
+    --text-color: #1A1A1A;
+    --text-color-2: #454545;
+    --text-color-3: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+}
+
+.top-list > :nth-child(-n + 3) {
+    color: var(--text-color-3);
+    background-color: var(--back-ground-color);
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.top-list > :nth-child(n + 6) {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.top-list > :nth-child(n + 6):hover,
+.top-list > :nth-child(n + 6):focus {
+    color: var(--back-ground-color);
+}
+
+.main-text-1 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 56px;
+}
+
+.main-text-2 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.main-text-3 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.main-text-4 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.main-text-5 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.main-text-6 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.card-1-text {
+    color: var(--text-color);
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.card-2-text {
+    color: var(--text-color);
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.card-3-text {
+    color: var(--text-color);
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.card-4-text {
+    color: var(--text-color);
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.color-hex {
+    color: var(--text-color);
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.shop-now {
+    color: var(--text-color-3);
+    background-color: var(--back-ground-color);
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
